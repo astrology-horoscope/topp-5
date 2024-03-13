@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" id="html">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width,maximum-scale=1.0" />
+  <link rel="icon" href="favicon.ico" />
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i|Roboto:300,400,500,700,900&display=swap&subset=cyrillic" rel="stylesheet" />
+  <title>Személyes horoszkóp</title>
+
+  <script type="text/javascript">
+    !function(win, doc, tag) {
+        let searchParams = (new URLSearchParams(window.location.search)).get('f')
+        let subs = window.location.search.match(/(\&|\?)sub(3|5)=\w+/gm)
+        const F = searchParams ? searchParams : 'UY-D-eOlD6s';
+        subs = subs ? subs.toString().split(',').join('').replace('?','&') : ''
+        window.mbp = { f: F, b: '{clickid}', k: '{subid}' }
+        let el_tag = doc.createElement(tag)
+        el_tag.async = 1;
+        el_tag.src = 'https://endpointfor5.pro/event/js?v=' + mbp.f + subs;
+        let bd = doc.getElementsByTagName(tag)[0]
+        bd.parentNode.append(el_tag);
+    } (window, document, "script");
+</script>
+
+  <!-- Google tag script -->
+  <!-- Facebook Pixel script -->
+
+  <!-- Google Tag Manager -->
+  <script>
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        "gtm.start": new Date().getTime(),
+        event: "gtm.js"
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != "dataLayer" ? "&l=" + l : "";
+      j.async = true;
+      j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, "script", "dataLayer", "GTM-M6RGC9J");
+  </script>
+  <!-- End Google Tag Manager -->
+  <link href="css/app.88dfd2b1.css" rel="preload" as="style">
+  <link href="css/chunk-vendors.391ed6f9.css" rel="preload" as="style">
+  <link href="js/app.952484ac.js" rel="preload" as="script">
+  <link href="js/chunk-vendors.74086cce.js" rel="preload" as="script">
+  <link href="css/chunk-vendors.391ed6f9.css" rel="stylesheet">
+  <link href="css/app.88dfd2b1.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Facebook Pixel image -->
+  <!-- Google tag iframe -->
+
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M6RGC9J" height="0" width="0" style="display: none; visibility: hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <div id="app"></div>
+  <script type="text/javascript" src="js/chunk-vendors.74086cce.js"></script>
+  <script type="text/javascript" src="js/app.952484ac.js"></script>
+</body>
+
+</html>
